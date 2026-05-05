@@ -64,27 +64,9 @@ A Class AB push-pull amplifier drives the speaker load. This reduces distortion 
 | Hardware Gain | 410 |
 | Slew Rate | 0.546 V/µs |
 
-The amplifier was verified using:
-- LTSpice simulations
-- Oscilloscope measurements
-- Hardware testing
 
 ---
 
-# Tools Used
-
-- LTSpice
-- Oscilloscope
-- Function Generator
-
----
-
-# Authors
-
-- Gauri Krishnan
-- Sukeerthi Kattamuri
 
 
-
----
 
