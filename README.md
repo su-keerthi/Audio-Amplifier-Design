@@ -33,12 +33,7 @@ The amplifier was designed and tested in both LTSpice simulation and hardware.
 
 ## 1. Differential Pre-Amplifier
 
-A BJT differential amplifier is used as the pre-amplifier stage for inital amplification and for common-mode signal rejection.
-
-### Performance
-- Differential Gain ≈ 21.5
-- CMRR ≈ 19.53 dB
-- High input impedance and low output impedance
+A BJT differential amplifier is used as the pre-amplifier stage for inital amplification and for common-mode signal rejection. Designed for a differential gain of 20. Achieved a gain of 21.5 and Common Mode rejection Ratio of 19.53 dB.
 
 ---
 
