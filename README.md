@@ -33,29 +33,18 @@ The amplifier was designed and tested in both LTSpice simulation and hardware.
 
 ## 1. Differential Pre-Amplifier
 
-A BJT differential amplifier is used as the pre-amplifier stage.
-
-### Purpose
-- Initial amplification
-- Noise reduction
-- Common-mode signal rejection
+A BJT differential amplifier is used as the pre-amplifier stage for inital amplification and for common-mode signal rejection.
 
 ### Performance
 - Differential Gain ≈ 21.5
 - CMRR ≈ 19.53 dB
-- High input impedance
-- Low output impedance
+- High input impedance and low output impedance
 
 ---
 
 ## 2. Common Emitter Gain Stage
 
-The CE amplifier provides most of the voltage amplification.
-
-### Features
-- Gain designed around 25
-- Biasing optimized for active region operation
-- Gain adjusted to compensate for loading effects
+The CE amplifier provides most of the voltage amplification. designed for a gain of nearly 25.
 
 ### Final Values
 - RC = 7.2 kΩ
@@ -65,35 +54,13 @@ The CE amplifier provides most of the voltage amplification.
 
 ## 3. Active Bandpass Filter
 
-An active bandpass filter restricts the signal to the audible frequency range.
-
-### Characteristics
-- Lower cutoff ≈ 9.5 Hz
-- Upper cutoff ≈ 38.4 kHz
-- Unity midband gain
-
-### Purpose
-- Remove low-frequency noise
-- Remove high-frequency interference
-- Preserve audio quality
+An active bandpass filter restricts the signal to the audible frequency range. Designed for the 3dB cutoff frequencies as lower cutoff at 9.5 Hz and upper cutoff at 39 kHz, with a unity gain . The main purpose is to remove unwanted frequency componenets to preserve the audio quality.
 
 ---
 
 ## 4. Class AB Power Amplifier
 
-A Class AB push-pull amplifier drives the speaker load.
-
-### Components Used
-- TIP31C
-- TIP32C
-
-### Features
-- Reduced crossover distortion
-- Improved efficiency
-- Diode biasing for smooth switching
-
-### Output Power
-≈ 1 W into a 10 Ω load
+A Class AB push-pull amplifier drives the speaker load. This reduces distortion and is efficient. Diode biasing was used for smooth switching. Power transistor TIP31C and TIP32C were used. 
 
 ---
 
@@ -125,7 +92,7 @@ The amplifier was verified using:
 - Gauri Krishnan
 - Sukeerthi Kattamuri
 
-International Institute of Information Technology, Hyderabad
+
 
 ---
 
