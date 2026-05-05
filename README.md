@@ -39,11 +39,8 @@ A BJT differential amplifier is used as the pre-amplifier stage for inital ampli
 
 ## 2. Common Emitter Gain Stage
 
-The CE amplifier provides most of the voltage amplification. designed for a gain of nearly 25.
-
-### Final Values
-- RC = 7.2 kΩ
-- RE = 270 Ω
+The CE amplifier provides most of the voltage amplification. Designed for a gain of nearly 25. Final resistor values chosen to achive this gain was RC = 7.2 kΩ
+and RE = 270 Ω
 
 ---
 
@@ -91,9 +88,3 @@ The amplifier was verified using:
 
 ---
 
-# References
-
-1. *RF Electronics* — Behzad Razavi  
-2. *Microelectronic Circuits* — Sedra & Smith  
-3. Electronics Tutorials  
-4. All About Electronics  
