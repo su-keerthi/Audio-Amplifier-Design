@@ -1,6 +1,6 @@
  # Audio Amplifier Design
 
-This project presents the design, simulation and hardware implementation for an audio amplifier. A multi-stage analog audio amplifier designed to amplify low-level microphone signals (10–20 mV peak-to-peak) to a level capable of driving a speaker load.
+This project presents the design, simulation and hardware implementation for a multistage analog audio amplifier designed to amplify low-level microphone signals to a level capable of driving a speaker load.
 
 ## Overview
 
